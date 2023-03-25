@@ -1,16 +1,16 @@
-NAME    : LOGESHWARAN S                                                            
+NAME    : LOGESHWARAN S [TENTACLES INFOTECH]                                                         
 DATE    : 25-03-2023
-SUBJECT : TECHNICAL ASSIGNMENT - 1
-STAFF   : RAY 
+SUBJECT : TECHNICAL ASSIGNMENT - 01
+MENTOR  : RAY 
 
 
-EXERCISE 1:FIND THE MAXIMUM ELEMENT IN THE ARRAY
+EXERCISE 1: "FIND THE MAXIMUM ELEMENT IN THE ARRAY"
 
 ALGORITHMS:
 
 PRE-CONDITION:
 
-Start
+Start.
 Create a initial set of array elements, that is arr[ ] = 0
 Initializing  i , temp = 0 ,
 Here “i” is a variable that act in a loop for a index value and temp = 0 will be taken as a temporary value for this condition.
@@ -48,8 +48,10 @@ If ( arr[ i ] > temp )
 }
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-EXERCISE 2 : " CONVERT ROMAN LETTERS TO INTEGERS "
+
+EXERCISE 2 : "CONVERT ROMAN LETTERS TO INTEGERS"
 
 ALGORITHMS:
 
@@ -75,8 +77,6 @@ then add the (r1+r2) value and get the the result and stores.
        If the condition is false, then subtract (r2-r1) value and get the result and stores.
 When r1 and r2 are condition statisfied for (r1 >= r2)  , then the result (res) will be shown in output.
 End.
-
-
 
 
 PSEUDOCODE :
@@ -115,6 +115,8 @@ Return res;
  }
 }
 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 EXERCISE 3: "MOVES ZEROS TO THE END OF THE ARRAY"
@@ -163,6 +165,7 @@ For ( int data: arr )
 }
 
 
-                                                           T H E  E N D
+                                                                    T H E  E N D
+                                                                    
 Thanks & regards
 LOGESHWARAN S
