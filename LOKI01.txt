@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 NAME    : LOGESHWARAN S [TENTACLES INFOTECH]                                                         
 DATE    : 25-03-2023
 SUBJECT : TECHNICAL ASSIGNMENT - 01
@@ -5,6 +6,15 @@ MENTOR  : RAY
 
 
 EXERCISE 1: "FIND THE MAXIMUM ELEMENT IN THE ARRAY"
+=======
+NAME    : LOGESHWARAN S [TENTACLES INFOTECH]                                                           
+DATE    : 25-03-2023
+SUBJECT : TECHNICAL ASSIGNMENT - 1
+MENTOR  : RAY 
+
+
+EXERCISE 1 : "FIND THE MAXIMUM ELEMENT IN THE ARRAY"
+>>>>>>> 3707f91 (LOKI 1st assignment)
 
 ALGORITHMS:
 
@@ -47,10 +57,14 @@ If ( arr[ i ] > temp )
     }
 }
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+<<<<<<< HEAD
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+=======
+>>>>>>> 3707f91 (LOKI 1st assignment)
 EXERCISE 2 : "CONVERT ROMAN LETTERS TO INTEGERS"
 
 ALGORITHMS:
@@ -79,6 +93,10 @@ When r1 and r2 are condition statisfied for (r1 >= r2)  , then the result (res) 
 End.
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3707f91 (LOKI 1st assignment)
 PSEUDOCODE :
 
 int value (char r) , n ;
@@ -115,9 +133,13 @@ Return res;
  }
 }
 
+<<<<<<< HEAD
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+=======
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>>>> 3707f91 (LOKI 1st assignment)
 
 EXERCISE 3: "MOVES ZEROS TO THE END OF THE ARRAY"
 
@@ -165,7 +187,12 @@ For ( int data: arr )
 }
 
 
+<<<<<<< HEAD
                                                                     T H E  E N D
                                                                     
+=======
+                                                                 T H E  E N D
+
+>>>>>>> 3707f91 (LOKI 1st assignment)
 Thanks & regards
 LOGESHWARAN S
