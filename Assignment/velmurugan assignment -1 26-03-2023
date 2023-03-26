@@ -1,0 +1,110 @@
+velmurugan 
+assignmet-1
+
+Find the max element in an array:
+
+23	65	12	87	12	343	098	12	76	312
+
+
+PRE-CONDITION:
+●	To get an array int  array [] = [values].
+●	We need to define two variable (int i max). 
+●	To get the min in an array to consider as max value (max=array[0]).
+●	Initialise =1 and max=0.
+●	Increment the i using(++).
+●	Compare the max value <array[i] then store the  max=array[i].
+POST-CONDITION:
+●	After the loop termination the value of the max is print.
+
+LOOP-VARIANT:
+●	The loop should terminate the value of the max must be compare the   others values i <=n.
+●	In other words loops should not terminate until we have n compare to max. 
+LOOP-INVARIANT:
+●	You need to set the loop invariant to ensure correct output after the loop termination.
+●	Loop invariant must be true before and after each iteration.
+●	Before ith iteration of the loop variable max is equal to (max=array[i]) 1 to i-1.
+●	After the ith iteration variable max is equal to 1 to i.
+
+PSEUDEOCODE:
+1.	 START
+2.	 INITIALIZE arr[] = {25, 11, 7, 75, 56}
+3.	 max = arr[0]
+4.	 REPEAT STEP 5 for(i=0; i< arr.length; i++)
+5.	 if(arr[i]>max) max=arr[i]
+6.	 PRINT "Largest element in given array:"
+7.	 PRINT max
+8.	 END
+
+
+To convert roman numbers into integers:
+	 
+PRE-CONDITION:
+
+●	To assing the char reference value as an integer create method.
+●	Also create the String methods(function to convert roman to integer )
+●	To create a total variable to store the values.(variable to store the sum  )
+●	loop iterate over the string (given roman numeral)  loop iterate .
+●	comparing the current character from its right character  . 
+●	if the value of current character is greater or equal to the next symbol .
+●	Returns corresponding integer value .                                                       
+
+POST-CONDITION:         
+●	 After the loop termination the value of the total is print.                           
+
+
+LOOP-VARIANT:
+●	In the loop iteration (total+1 /total-1) else print total+1.
+
+●	  The loop should terminate the value of the max must be compare the   others values i <=n.
+
+LOOP-INVARIANT:
+●	You need to set the loop invariant to ensure correct output after the loop termination.
+●	Loop invariant must be true before and after each iteration.
+●	return total value.
+
+
+PSEUDOCODE:
+
+
+1.	START
+2.	INITIALIZE THE (int value(char r))
+3.	CREATE A  STRING METHOD(int convertRomanToInt(String s)).
+4.	INITIALIZE int convertRomanToInt(String s) .
+5.	ITETARATION LOOP(for(int i=0; i<s.length(); i++))
+6.	COMPARE(if (s1 >= s2)).
+7.	RETURN return value.
+8.	CREATE OBJECT to call the method.
+9.	PRINT print the output value.
+10.	END
+
+Move all zero end of array:
+PRE-CONDITON:
+●	To get the array variables and arry values{ }.
+●	To initialise the two variables (int nz++,z++).
+●	To check in the while loop (nz<len).
+●	if statement to be compare(if(num[nz]!=0)).
+●	To increment the values (nz++,z++)
+●	Other wise else part will be print.
+POST-CONDITION:
+●	After the loop terminte output will be print in num as array format.
+
+LOOP-VARIANT:
+●	After the loop terminate if is not satisfied else part will be print.
+LOOP-INVARIANT:
+●	You need to set the loop invariant to ensure correct output after the loop termination.
+●	Loop invariant must be true before and after each iteration.
+
+PSEUDOCODE:
+1.START
+2.INITILIZE arr[]={2,3,0,6,0,6};
+3.INITIALIZE VARIABLES int nz=0,z=0;
+4.LOOP while(nz<len)
+5.STATEMENT if(num[nz]!=0)
+6,INCREMENT nz++,z++;
+7.ELSE
+8.nz++;
+9.PRINT STATEMENT
+10.END
+
+
+
